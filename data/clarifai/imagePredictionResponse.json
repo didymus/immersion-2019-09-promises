@@ -1,0 +1,130 @@
+{
+  "outputs": [
+    {
+      "data": {
+        "concepts": [
+        {
+          "id": "ai_TJ9wFfK5",
+          "name": "portrait",
+          "value": 0.99831235,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_VPmHr5bm",
+          "name": "adult",
+          "value": 0.98707056,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_7WNVdPhm",
+          "name": "competition",
+          "value": 0.98317397,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_SVshtN54",
+          "name": "one",
+          "value": 0.96890295,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_l8TKp2h5",
+          "name": "people",
+          "value": 0.9688364,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_8Qw6PFLZ",
+          "name": "recreation",
+          "value": 0.9516221,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_dxSG2s86",
+          "name": "man",
+          "value": 0.9500449,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_mXT38hpL",
+          "name": "football",
+          "value": 0.9408928,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_13NdwKqz",
+          "name": "festival",
+          "value": 0.9292184,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_HRDzXBNl",
+          "name": "actor",
+          "value": 0.9143093,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_mvRRZ5Mq",
+          "name": "happiness",
+          "value": 0.90870094,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_fKppxwrj",
+          "name": "soccer",
+          "value": 0.9082202,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_FBB4qqWN",
+          "name": "film festival",
+          "value": 0.9073169,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_4ScHvd0z",
+          "name": "movie",
+          "value": 0.90072227,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_86sS08Pw",
+          "name": "wear",
+          "value": 0.89990115,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_sK0wv7g9",
+          "name": "sports fan",
+          "value": 0.8738053,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_fhqpCCSD",
+          "name": "athlete",
+          "value": 0.8573315,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_drGn3frP",
+          "name": "champion",
+          "value": 0.84635806,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_fC2xJzJL",
+          "name": "race (competition)",
+          "value": 0.8359424,
+          "app_id": "main"
+        },
+        {
+          "id": "ai_GxSDhQ34",
+          "name": "facial expression",
+          "value": 0.83322155,
+          "app_id": "main"
+        }
+        ]
+      }
+    }
+  ]
+}

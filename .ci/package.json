@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "mocha ../test/index.js"
+  },
+  "testDirs": ["test"]
+}

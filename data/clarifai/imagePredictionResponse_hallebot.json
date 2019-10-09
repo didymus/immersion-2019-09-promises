@@ -1,0 +1,167 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok"
+  },
+  "outputs": [
+    {
+      "id": "97fa12b3731340d98d57a0b6bb3095a4",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-20T16:19:11.756148124Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "dda242e368d34cdea2e2cb5c6eb5f6ff",
+        "data": {
+          "image": {
+            "url": "https://avatars3.githubusercontent.com/u/42619351?v=4.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_Dm5GLXnB",
+            "name": "illustration",
+            "value": 0.9894725,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_20SCBBZ0",
+            "name": "vector",
+            "value": 0.9722021,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JP8T36Nq",
+            "name": "sketch",
+            "value": 0.9710448,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_4CRlSvbV",
+            "name": "cute",
+            "value": 0.96264815,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QGHBfsBT",
+            "name": "funny",
+            "value": 0.94136906,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_V2F286Wn",
+            "name": "fun",
+            "value": 0.93228054,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_QBpcNtdR",
+            "name": "graphic",
+            "value": 0.92731047,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_cMfj16kJ",
+            "name": "design",
+            "value": 0.91797125,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_JBPqff8z",
+            "name": "art",
+            "value": 0.91778994,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_786Zr311",
+            "name": "no person",
+            "value": 0.91360134,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_mqq32bXM",
+            "name": "character",
+            "value": 0.8894112,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_s0vnWcwJ",
+            "name": "cheerful",
+            "value": 0.87940764,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_1p2zMmqb",
+            "name": "retro",
+            "value": 0.83778405,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_8rNgfppJ",
+            "name": "symbol",
+            "value": 0.8330247,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wmbvr5TG",
+            "name": "celebration",
+            "value": 0.83229196,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.8298275,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_XQvXVCKm",
+            "name": "greeting",
+            "value": 0.8293976,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.8074137,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rmSfWxPz",
+            "name": "graphic design",
+            "value": 0.80420357,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_swtdphX8",
+            "name": "love",
+            "value": 0.79513514,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}

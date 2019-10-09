@@ -1,0 +1,167 @@
+{
+  "status": {
+    "code": 10000,
+    "description": "Ok"
+  },
+  "outputs": [
+    {
+      "id": "f4d1c1880eea4b19a6313c862cd70937",
+      "status": {
+        "code": 10000,
+        "description": "Ok"
+      },
+      "created_at": "2019-03-20T16:25:32.009281778Z",
+      "model": {
+        "id": "aaa03c23b3724a16a56b629203edc62c",
+        "name": "general",
+        "created_at": "2016-03-09T17:11:39.608845Z",
+        "app_id": "main",
+        "output_info": {
+          "type": "concept",
+          "type_ext": "concept"
+        },
+        "model_version": {
+          "id": "aa9ca48295b37401f8af92ad1af0d91d",
+          "created_at": "2016-07-13T01:19:12.147644Z",
+          "status": {
+            "code": 21100,
+            "description": "Model trained successfully"
+          }
+        },
+        "display_name": "General"
+      },
+      "input": {
+        "id": "5f9f038b97db4931b36efac9b032049b",
+        "data": {
+          "image": {
+            "url": "https://avatars2.githubusercontent.com/u/23223956?v=4.jpg"
+          }
+        }
+      },
+      "data": {
+        "concepts": [
+          {
+            "id": "ai_TJ9wFfK5",
+            "name": "portrait",
+            "value": 0.99455184,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_SVshtN54",
+            "name": "one",
+            "value": 0.9922896,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_l8TKp2h5",
+            "name": "people",
+            "value": 0.98832506,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_VPmHr5bm",
+            "name": "adult",
+            "value": 0.97206515,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_lPcW4tSX",
+            "name": "adolescent",
+            "value": 0.9492526,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_MnltbfWP",
+            "name": "youth",
+            "value": 0.9440744,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_wWRzHGtK",
+            "name": "eyeglasses",
+            "value": 0.93763435,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_86sS08Pw",
+            "name": "wear",
+            "value": 0.93754387,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dxSG2s86",
+            "name": "man",
+            "value": 0.9316907,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_kg24zmx8",
+            "name": "boy",
+            "value": 0.9239749,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_dngMN46t",
+            "name": "fashion",
+            "value": 0.9237846,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_BpnQsTtg",
+            "name": "young",
+            "value": 0.9141662,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_rRDgzFQs",
+            "name": "school",
+            "value": 0.911232,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_5B7J7fdF",
+            "name": "model",
+            "value": 0.90036535,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_CpFBRWzD",
+            "name": "urban",
+            "value": 0.8794279,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_9fQBzNBM",
+            "name": "looking",
+            "value": 0.87006265,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_Lq00FggW",
+            "name": "desktop",
+            "value": 0.8628602,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_0ZcNtwPP",
+            "name": "sunglasses",
+            "value": 0.8522908,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_fNR8CQHt",
+            "name": "fine-looking",
+            "value": 0.8504268,
+            "app_id": "main"
+          },
+          {
+            "id": "ai_qcLd7fgc",
+            "name": "child",
+            "value": 0.84664637,
+            "app_id": "main"
+          }
+        ]
+      }
+    }
+  ]
+}
