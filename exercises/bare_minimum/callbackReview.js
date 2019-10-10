@@ -18,8 +18,14 @@ const pluckFirstLineFromFile = (filePath, callback) => {
 };
 
 // This function should retrieve the status code of a GET request to `url`
-const getStatusCode = (url) => {
-  // TODO
+const getStatusCode = (url, callback) => {
+  request(url, 'utf8', (err, response) => {
+    if(err){
+      callback(err);
+    } else {
+      callback(null, response.statusCode);
+    }
+  });
 };
 
 // Export these functions so we can test them and reuse them in later exercises
