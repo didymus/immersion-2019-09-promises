@@ -27,7 +27,7 @@ const getGitHubProfile = (user, callback) => {
   });
 };
 
-const getGitHubProfileAsync = 'TODO';
+const getGitHubProfileAsync = promisify(getGitHubProfile);
 
 
 // (2) Asynchronous token generation
@@ -40,7 +40,7 @@ const generateRandomToken = (callback) => {
   });
 };
 
-const generateRandomTokenAsync = 'TODO';
+const generateRandomTokenAsync = promisify(generateRandomToken);
 
 
 // (3) Asynchronous file manipulation
@@ -58,7 +58,7 @@ const readFileAndMakeItFunny = (filePath, callback) => {
   });
 };
 
-const readFileAndMakeItFunnyAsync = 'TODO';
+const readFileAndMakeItFunnyAsync = promisify(readFileAndMakeItFunny);
 
 // Export these functions so we can test them and reuse them in later exercises
 module.exports = {
