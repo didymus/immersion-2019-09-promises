@@ -9,7 +9,16 @@ const request = require('request');
 
 // This function should retrieve the first line of the file at `filePath`
 const pluckFirstLineFromFileAsync = (filePath) => {
-  // TODO
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf8', (err, file) => {
+      if(err){
+        reject(err);
+      } else {
+        let firstLine = file.split('\n')[0];
+        resolve(firstLine);
+      }
+    });
+  });
 };
 
 // This function should retrieve the status code of a GET request to `url`

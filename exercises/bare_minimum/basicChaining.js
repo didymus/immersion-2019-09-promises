@@ -13,7 +13,7 @@ const { promisify } = require('util');
 
 
 const fetchProfileAndWriteToFile = (readFilePath, writeFilePath) => {
-  // TODO
+
 };
 
 // Export these functions so we can test them
