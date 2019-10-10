@@ -58,7 +58,20 @@ const readFileAndMakeItFunny = (filePath, callback) => {
   });
 };
 
-const readFileAndMakeItFunnyAsync = promisify(readFileAndMakeItFunny);
+const readFileAndMakeItFunnyAsync = (filePath) => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, 'utf8', (err, file) => {
+      if(err){
+        reject(err);
+      } else {
+        const funnyFile = file.split('\n')
+        .map(line => line + 'lol')
+        .join('\n');
+        resolve(funnyFile);
+      }
+    });
+  });
+};
 
 // Export these functions so we can test them and reuse them in later exercises
 module.exports = {
