@@ -9,11 +9,15 @@
  */
 
 const fs = require('fs');
-const { promisify } = require('util');
+const { promisify } = require('util'); 
+const promisification = require('./promisification');
+const promiseConstructor = require('./promiseConstructor');
 
 
 const fetchProfileAndWriteToFile = (readFilePath, writeFilePath) => {
-
+  return promiseConstructor.pluckFirstLineFromFileAsync(readFilePath)
+  .then((user) => promisification.getGitHubProfileAsync(user))
+  .then((profile) => fs.writeFileSync(writeFilePath, JSON.stringify(profile)));
 };
 
 // Export these functions so we can test them
