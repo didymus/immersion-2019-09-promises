@@ -23,7 +23,15 @@ const pluckFirstLineFromFileAsync = (filePath) => {
 
 // This function should retrieve the status code of a GET request to `url`
 const getStatusCodeAsync = (url) => {
-  // TODO
+  return new Promise((resolve, reject) => {
+    request(url, 'utf8', (err, response) => {
+      if(err){
+        reject(err);
+      } else {
+        resolve(response.statusCode);
+      }
+    });
+  });
 };
 
 // Export these functions so we can test them and reuse them in later exercises
